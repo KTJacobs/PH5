@@ -12,6 +12,12 @@ Master:
 -ph5.clients.ph5tostationxml
  * Address issue #181
  * print to stdout by default
+ -ph5.utilities.ph5_validate
+ * Add ability to specify output file in ph5_validate
+ * Add check to see if multiple experiment records exists in experiment_t
+ * Add warning logging level
+ * Move check for channels without data to the warning logging level
+ * Improve error handling to avoid having users see a stack trace
  
 v4.1.1:
 -ph5.clients.ph5toexml
